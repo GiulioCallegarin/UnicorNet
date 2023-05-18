@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicornet</title>
+    <link rel="stylesheet" href="css/login.css?ver=98">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logos/logo.png">
+        </div>
+        <div class="name">
+            UNICORNET
+        </div>
+    </header>
+
+    <main>
+        <p class="status" id="textError"></p>
+        <div class="input">
+            <div class="username">
+                <input type="username" name="username" placeholder="Username" id="username"><br> 
+            </div>
+            <div class="password">
+                <input type="password" name="password" placeholder="Password" id="password"><br> 
+                <div class="passwordIcon">
+                    <svg
+                        id="togglePassword"
+                        version="1.1"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 210 210"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            id="horn" 
+                            fill="rgb(117, 117, 117)"
+                            d="M 73.088767,209.54026 C 71.806741,208.84483 1.257042,138.29524 0.59116347,137.04309 0.266031,136.43157 0,135.08064 0,134.04163 c 0,-1.6255 0.2155875,-2.11203 1.5441315,-3.48253 1.3617449,-1.40491 37.9494225,-25.55318 38.7162095,-25.55318 0.391933,0 64.740449,64.35389 64.740449,64.74558 0,0.76572 -24.149322,37.3566 -25.551869,38.71634 -1.396754,1.35419 -1.835785,1.54284 -3.564776,1.53171 -1.084508,-0.007 -2.342433,-0.21347 -2.795378,-0.45929 z M 81.791889,128.1222 51.39874,97.725428 72.743841,83.932888 c 11.739787,-7.585895 21.541704,-13.905179 21.782013,-14.042834 0.240339,-0.137731 10.666036,9.980587 23.168336,22.484925 l 22.73119,22.735041 -13.83773,21.4056 c -7.61071,11.77271 -13.96475,21.53965 -14.12013,21.70417 -0.1551,0.16456 -13.959377,-13.37943 -30.675631,-30.09759 z M 126.62844,83.191165 C 114.1897,70.749911 106.21077,62.471769 106.45309,62.259137 c 0.6897,-0.605436 42.02142,-27.216341 42.63859,-27.452419 0.37844,-0.144741 5.15677,4.349262 13.4982,12.695022 11.18988,11.195906 12.85648,13.022667 12.49591,13.695751 -0.95934,1.789989 -27.32635,42.376119 -27.59138,42.470769 -0.15983,0.0558 -9.54897,-9.15792 -20.86597,-20.477095 z M 171.57347,38.368545 160.5513,27.340194 170.55572,20.785059 C 176.05821,17.179718 185.44151,11.02818 191.40784,7.1149465 201.35475,0.590887 202.40836,0 204.09023,0 c 3.59724,0 5.90698,2.2683968 5.90977,5.804143 0.001,1.4964856 -0.32788,2.4006262 -1.57396,4.323785 -5.03129,7.765984 -25.33228,38.717617 -25.55932,38.968954 -0.1485,0.164999 -5.23118,-4.662765 -11.29325,-10.728337 z"
+                            />
+                    </svg>
+                </div>
+            </div>
+            <p id="debugging"></p>
+        </div>
+        <div class="controls">
+            <ul>
+                <li>
+                    <div class="remember"><input class="checkbox" type="checkbox">Ricordami</div>
+                </li>
+                <li>
+                    <div class="loginProblems"><a href="#">Problemi di accesso</a></div>
+                </li>
+            </ul>
+        </div>
+        <div class="loginButton">
+            <button id="logButton">Login</button>
+        </div>
+        <div class="register">
+            <a href="#">Registrati</a>
+        </div>
+        <div class="loginOptions">
+            <ul>
+                <li><img src="img/websites/google.png" alt=""></li>
+                <li><img src="img/websites/twitter.png" alt=""></li>
+                <li><img src="img/websites/linkedin.png" alt=""></li>
+                <li><img src="img/websites/facebook.png" alt=""></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="links">
+            <a href="#">Contatti</a>
+            <a href="#">Supporto</a>
+        </div>
+        <div class="motto">
+            Empowering Investment
+        </div>
+    </footer>
+    <script src="js/login.js?ver=11"></script>
+</body>
+
+</html>
